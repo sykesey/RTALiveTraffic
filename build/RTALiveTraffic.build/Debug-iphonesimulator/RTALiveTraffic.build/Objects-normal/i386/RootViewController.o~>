@@ -1,0 +1,13 @@
+In file included from /Users/ben/Documents/RTALiveTraffic/Classes/Cameras.h:10,
+                 from /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.h:9,
+                 from /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m:9:
+/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h:18: error: can not use an object as parameter to a method
+/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h:19: error: can not use an object as parameter to a method
+/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h:20: error: can not use an object as parameter to a method
+/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h:21: error: can not use an object as parameter to a method
+/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h:22: error: can not use an object as parameter to a method
+/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m:140: error: 'Incidents' undeclared (first use in this function)
+/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m:140: error: (Each undeclared identifier is reported only once
+/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m:140: error: for each function it appears in.)
+/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m:140: error: 'inci' undeclared (first use in this function)

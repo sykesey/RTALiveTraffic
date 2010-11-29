@@ -1,0 +1,643 @@
+TRTALiveTraffic
+v7
+r0
+t312735529.491165
+cCheck dependencies
+cProcessInfoPlistFile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/Info.plist RTALiveTraffic-Info.plist
+cCompileXIB /Users/ben/Documents/RTALiveTraffic/MainWindow.xib
+cCompileXIB /Users/ben/Documents/RTALiveTraffic/RootViewController.xib
+cProcessPCH /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch.gch RTALiveTraffic_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/main.o /Users/ben/Documents/RTALiveTraffic/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTrafficAppDelegate.o /Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RootViewController.o /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSObject+SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSString+SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonBase.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonParser.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonWriter.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/JSONConnector.o /Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/DataObjects.o /Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/ImageDisplay.o /Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Cameras.o /Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incidents.o /Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incident.o /Users/ben/Documents/RTALiveTraffic/Classes/Incident.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic normal i386
+cGenerateDSYMFile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic
+cTouch /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B4848E900000000000000EE
+t1263028457
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Cameras.h
+c000000004CF3AEA900000000000001B3
+t1291038377
+s435
+i<UIKit/UIKit.h>
+i"DataObjects.h"
+i"ImageDisplay.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m
+c000000004CF3B53B00000000000014F3
+t1291040059
+s5363
+i"Cameras.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.h
+c000000004CF3B249000000000000019D
+t1291039305
+s413
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m
+c000000004CF3B6B3000000000000059B
+t1291040435
+s1435
+i"DataObjects.h"
+i"JSONConnector.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.h
+c000000004CF3AC7E000000000000019C
+t1291037822
+s412
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m
+c000000004CF3ACE40000000000000965
+t1291037924
+s2405
+i"ImageDisplay.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Incident.h
+c000000004CF3BBC30000000000000175
+t1291041731
+s373
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Incident.m
+c000000004CF3BFA70000000000000A54
+t1291042727
+s2644
+i"Incident.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Incidents.h
+c000000004CF3BAD300000000000001A5
+t1291041491
+s421
+i<UIKit/UIKit.h>
+i"DataObjects.h"
+i"Incident.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m
+c000000004CF3BE09000000000000163E
+t1291042313
+s5694
+i"Incidents.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/JSON.h
+c000000004B48764B00000000000008F9
+t1263040075
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.h
+c000000004B48764C0000000000000A01
+t1263040076
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m
+c000000004B48764C000000000000089E
+t1263040076
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.h
+c000000004B48764C0000000000000916
+t1263040076
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m
+c000000004B48764C000000000000087D
+t1263040076
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.h
+c000000004B48764B0000000000000AED
+t1263040075
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m
+c000000004B48764C0000000000001ABC
+t1263040076
+s6844
+i"SBJSON.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.h
+c000000004B48764B0000000000000B82
+t1263040075
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m
+c000000004B48764B0000000000000AC1
+t1263040075
+s2753
+i"SBJsonBase.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.h
+c000000004B48764B0000000000000C0B
+t1263040075
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m
+c000000004B48764B00000000000036CF
+t1263040075
+s14031
+i"SBJsonParser.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.h
+c000000004B48764B0000000000001140
+t1263040075
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m
+c000000004B48764B0000000000001E83
+t1263040075
+s7811
+i"SBJsonWriter.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.h
+c000000004B48764C0000000000000152
+t1263040076
+s338
+i<Foundation/Foundation.h>
+i"JSON.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m
+c000000004CF3B68200000000000003EF
+t1291040386
+s1007
+i"JSONConnector.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.h
+c000000004CF3833000000000000001CD
+t1291027248
+s461
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m
+c000000004CF383300000000000000350
+t1291027248
+s848
+i"RTALiveTrafficAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.h
+c000000004CF3B1A20000000000000104
+t1291039138
+s260
+i"Cameras.h"
+i"Incidents.h"
+
+N/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m
+c000000004CF3B18600000000000014E3
+t1291039110
+s5347
+i"RootViewController.h"
+
+N/Users/ben/Documents/RTALiveTraffic/MainWindow.xib
+c000000004CF383300000000000002C7D
+t1291027248
+s11389
+
+N/Users/ben/Documents/RTALiveTraffic/RTALiveTraffic_Prefix.pch
+c000000004CF38330000000000000014E
+t1291027248
+s334
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/RTALiveTraffic/RootViewController.xib
+c000000004CF383300000000000004328
+t1291027248
+s17192
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app
+t1291042729
+s238
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM
+t1291042729
+s102
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/Info.plist
+t1291027535
+s592
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/MainWindow.nib
+t1291027538
+s2019
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/PkgInfo
+t1291027535
+s8
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic
+t1291042729
+s72852
+
+N/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RootViewController.nib
+t1291027538
+s1388
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Cameras.o
+t1291040063
+s38784
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/DataObjects.o
+t1291040438
+s9704
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/ImageDisplay.o
+t1291037927
+s36020
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incident.o
+t1291042729
+s35696
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incidents.o
+t1291042316
+s38652
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/JSONConnector.o
+t1291040387
+s11784
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSObject+SBJSON.o
+t1291028119
+s7752
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSString+SBJSON.o
+t1291028119
+s7772
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTraffic.LinkFileList
+c000000004CF3BAD80000000000000840
+t1291041496
+s2112
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTrafficAppDelegate.o
+t1291041750
+s39996
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RootViewController.o
+t1291041750
+s36324
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJSON.o
+t1291028119
+s16776
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonBase.o
+t1291028119
+s12116
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonParser.o
+t1291028119
+s29836
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonWriter.o
+t1291028120
+s22052
+
+N/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/main.o
+t1291027539
+s5952
+
+N/Users/ben/Documents/RTALiveTraffic/main.m
+c000000004CF38330000000000000016E
+t1291027248
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch.gch
+t1291027539
+s13034960
+
+NRTALiveTraffic-Info.plist
+c000000004CF38330000000000000038D
+t1291027248
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312735529#312735529#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Cameras.o /Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312732863.271751
+e312732863.416789
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Cameras.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m312732863#312732863#0(0"0(0#0#53"/Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m4300885448#1980"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/Cameras.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Cameras.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/DataObjects.o /Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733238.816185
+e312733238.940230
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/DataObjects.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m312733238#312733238#0(0"0(0#0#57"/Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m4300885448#1988"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/DataObjects.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/DataObjects.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/ImageDisplay.o /Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312730727.198566
+e312730727.338130
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/ImageDisplay.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m312730727#312730727#0(0"0(0#0#58"/Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m4300885448#1990"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/ImageDisplay.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/ImageDisplay.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incident.o /Users/ben/Documents/RTALiveTraffic/Classes/Incident.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312735529.260396
+e312735529.387919
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incident.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/Incident.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/ben/Documents/RTALiveTraffic/Classes/Incident.m312735529#312735529#0(0"0(0#0#54"/Users/ben/Documents/RTALiveTraffic/Classes/Incident.m4300885448#1982"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/Incident.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incident.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incidents.o /Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312735116.424239
+e312735116.634326
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incidents.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m312735116#312735116#0(0"0(0#0#55"/Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m4300885448#1984"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/Incidents.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/Incidents.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/JSONConnector.o /Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733187.826775
+e312733187.982184
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/JSONConnector.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m312733187#312733187#0(0"0(0#0#59"/Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m4300885448#1992"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSONConnector.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/JSONConnector.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSObject+SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.083380
+e312720919.270792
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m312720919#312720919#0(0"0(0#0#66"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m4300885448#2001"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSObject+SBJSON.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSString+SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.271087
+e312720919.382914
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m312720919#312720919#0(0"0(0#0#66"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m4300885448#2001"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/NSString+SBJSON.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTrafficAppDelegate.o /Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312734550.294396
+e312734550.400513
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTrafficAppDelegate.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m312734550#312734550#0(0"0(0#0#71"/Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m4300885448#2016"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/RTALiveTrafficAppDelegate.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTrafficAppDelegate.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RootViewController.o /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312734550.295681
+e312734550.396507
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RootViewController.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m312734550#312734550#0(0"0(0#0#64"/Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m4300885448#2002"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/RootViewController.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJSON.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.383025
+e312720919.454926
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJSON.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m312720919#312720919#0(0"0(0#0#57"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m4300885448#1983"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJSON.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonBase.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.455034
+e312720919.517190
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonBase.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m312720919#312720919#0(0"0(0#0#61"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m4300885448#1991"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonBase.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonParser.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.517301
+e312720919.955975
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonParser.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m312720919#312720919#0(0"0(0#0#63"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m4300885448#1995"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonParser.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonWriter.o /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720919.683065
+e312720920.176085
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m312720919#312720920#0(0"0(0#0#63"/Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m4300885448#1995"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/Classes/JSON/SBJsonWriter.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/main.o /Users/ben/Documents/RTALiveTraffic/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720339.641971
+e312720339.965275
+r1
+xCompileC
+xbuild/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/main.o
+x/Users/ben/Documents/RTALiveTraffic/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/ben/Documents/RTALiveTraffic/main.m312720339#312720339#0(0"0(0#0#42"/Users/ben/Documents/RTALiveTraffic/main.m4300885448#1966"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -include /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch -c /Users/ben/Documents/RTALiveTraffic/main.m -o /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/ben/Documents/RTALiveTraffic/MainWindow.xib
+s312720335.605197
+e312720338.409882
+r1
+xCompileXIB
+x/Users/ben/Documents/RTALiveTraffic/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib312720335#312720338#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/ben/Documents/RTALiveTraffic/MainWindow.xib4300885448#480"    cd /Users/ben/Documents/RTALiveTraffic    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/MainWindow.nib /Users/ben/Documents/RTALiveTraffic/MainWindow.xib0#
+
+CCompileXIB /Users/ben/Documents/RTALiveTraffic/RootViewController.xib
+s312720335.649992
+e312720338.410248
+r1
+xCompileXIB
+x/Users/ben/Documents/RTALiveTraffic/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib312720335#312720338#0(0"0(0#0#58"/Users/ben/Documents/RTALiveTraffic/RootViewController.xib4300885448#496"    cd /Users/ben/Documents/RTALiveTraffic    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RootViewController.nib /Users/ben/Documents/RTALiveTraffic/RootViewController.xib0#
+
+CGenerateDSYMFile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic
+s312735529.438205
+e312735529.488142
+r1
+xGenerateDSYMFile
+x/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM
+x/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic312735529#312735529#0(0"0(0#0#97"/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic4300885448#395"    cd /Users/ben/Documents/RTALiveTraffic    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic -o /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app.dSYM0#
+
+CLd /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic normal i386
+s312735529.388019
+e312735529.438105
+r1
+xLd
+x/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic
+xnormal
+xi386
+lSLF07#2@102"Link /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic312735529#312735529#0(0"0(0#0#0"4300885448#884"    cd /Users/ben/Documents/RTALiveTraffic    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -filelist /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/Objects-normal/i386/RTALiveTraffic.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/RTALiveTraffic0#
+
+CProcessInfoPlistFile /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/Info.plist RTALiveTraffic-Info.plist
+s312720335.529948
+e312720335.605073
+r1
+xProcessInfoPlistFile
+x/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/Info.plist
+xRTALiveTraffic-Info.plist
+lSLF07#2@33"Process RTALiveTraffic-Info.plist312720335#312720335#0(0"0(0#0#61"/Users/ben/Documents/RTALiveTraffic/RTALiveTraffic-Info.plist29273878621126700#491"    cd /Users/ben/Documents/RTALiveTraffic    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RTALiveTraffic-Info.plist -genpkginfo /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app/Info.plist0#
+
+CProcessPCH /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch.gch RTALiveTraffic_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312720338.410383
+e312720339.641840
+r1
+xProcessPCH
+x/var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch.gch
+xRTALiveTraffic_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile RTALiveTraffic_Prefix.pch312720338#312720339#0(0"0(0#0#61"/Users/ben/Documents/RTALiveTraffic/RTALiveTraffic_Prefix.pch4300885448#1854"    cd /Users/ben/Documents/RTALiveTraffic    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-generated-files.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-own-target-headers.hmap -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-all-target-headers.hmap -iquote /Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/RTALiveTraffic-project-headers.hmap -F/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator -I/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/include -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources/i386 -I/Users/ben/Documents/RTALiveTraffic/build/RTALiveTraffic.build/Debug-iphonesimulator/RTALiveTraffic.build/DerivedSources -c /Users/ben/Documents/RTALiveTraffic/RTALiveTraffic_Prefix.pch -o /var/folders/oi/oiFo6zmCHyq11864gvIhNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RTALiveTraffic_Prefix-eyygefgijnroblfdcagtpvbnrvkr/RTALiveTraffic_Prefix.pch.gch0#
+
+CTouch /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app
+s312735529.488234
+e312735529.491120
+r1
+xTouch
+x/Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app
+lSLF07#2@88"Touch /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app312735529#312735529#0(0"0(0#0#0"4300885448#279"    cd /Users/ben/Documents/RTALiveTraffic    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ben/Documents/RTALiveTraffic/build/Debug-iphonesimulator/RTALiveTraffic.app0#
+
