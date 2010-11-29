@@ -13,10 +13,13 @@
 	//UIImage* image;
 	UIWebView* image;
 	NSString* imageUrl;
+	NSString* cameraName;
 }
 
 @property (nonatomic, retain) UIWebView* image;
 @property (nonatomic, retain) NSString* imageUrl;
+@property (nonatomic, retain) NSString* cameraName;
+
 - (void)refresh:(id) sender;
 
 

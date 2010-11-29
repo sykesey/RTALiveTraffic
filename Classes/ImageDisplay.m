@@ -11,7 +11,7 @@
 
 @implementation ImageDisplay
 
-@synthesize image, imageUrl;
+@synthesize image, imageUrl,cameraName;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -39,14 +39,17 @@
 	[bi release];
 	
 	CGRect webFrame = [[UIScreen mainScreen] applicationFrame];
+	webFrame.origin.y -= 20;
 	
 	image = [[UIWebView alloc] initWithFrame:webFrame];
-	NSURL *url = [NSURL URLWithString:imageUrl];
+	//NSURL *url = [NSURL URLWithString:imageUrl];
 	//URL Requst Object
-	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	//NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+	
+	NSString* content = [NSString stringWithFormat:@"<html><style>*{margin:0;padding:0;color:#fff;font-family:Helvetica, sans-serif;font-size:14px;}</style><body bgcolor=#000000><img src='%@'/><br/><center>%@</center></body></html>",imageUrl,cameraName];
 	
 	//Load the request in the UIWebView.
-	[image loadRequest:requestObj];
+	[image loadHTMLString:content baseURL:[NSURL URLWithString:@"http://livetraffic.rta.nsw.gov.au"]];
 	
 	[self.view addSubview:image];
 	self.navigationItem.title = @"Image";
@@ -54,11 +57,11 @@
 
 - (void)refresh:(id) sender
 {
-	NSURL *url = [NSURL URLWithString:imageUrl];
-	//URL Requst Object
-	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];	
+	NSString* content = [NSString stringWithFormat:@"<html><style>*{margin:0;padding:0;color:#fff;font-family:Helvetica, sans-serif;font-size:14px;}</style><body bgcolor=#000000><img src='%@'/><br/><center>%@</center></body></html>",imageUrl,cameraName];
+	
 	//Load the request in the UIWebView.
-	[image loadRequest:requestObj];
+	[image loadHTMLString:content baseURL:[NSURL URLWithString:@"http://livetraffic.rta.nsw.gov.au"]];
+	
 }
 
 /*

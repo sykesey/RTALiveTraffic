@@ -7,14 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MapKit/MapKit.h>
+#import "Annotation.h"
 
 @interface Incident : UIViewController {
 	NSMutableDictionary* inci;
 	UIWebView* webview;
+	MKMapView* mk;
 }
 
 @property (nonatomic, retain) NSMutableDictionary* inci;
 @property (nonatomic, retain) UIWebView* webview;
+@property (nonatomic,retain) MKMapView* mk;
 
 @end

@@ -27,6 +27,8 @@
 		B57EEE4812A3E50400DFCA38 /* Cameras.m in Sources */ = {isa = PBXBuildFile; fileRef = B57EEE4712A3E50400DFCA38 /* Cameras.m */; };
 		B57EEE7312A3E91800DFCA38 /* Incidents.m in Sources */ = {isa = PBXBuildFile; fileRef = B57EEE7212A3E91800DFCA38 /* Incidents.m */; };
 		B57EEF0412A3EF3500DFCA38 /* Incident.m in Sources */ = {isa = PBXBuildFile; fileRef = B57EEF0312A3EF3500DFCA38 /* Incident.m */; };
+		B57EEFDE12A3FE9200DFCA38 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57EEFDD12A3FE9200DFCA38 /* MapKit.framework */; };
+		B57EF02F12A4041D00DFCA38 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B57EF02E12A4041D00DFCA38 /* Annotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		B57EEE7212A3E91800DFCA38 /* Incidents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incidents.m; sourceTree = "<group>"; };
 		B57EEF0212A3EF3500DFCA38 /* Incident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incident.h; sourceTree = "<group>"; };
 		B57EEF0312A3EF3500DFCA38 /* Incident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incident.m; sourceTree = "<group>"; };
+		B57EEFDD12A3FE9200DFCA38 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B57EF02D12A4041D00DFCA38 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		B57EF02E12A4041D00DFCA38 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				B57EEFDE12A3FE9200DFCA38 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +125,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				B57EF02D12A4041D00DFCA38 /* Annotation.h */,
+				B57EF02E12A4041D00DFCA38 /* Annotation.m */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -153,6 +161,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				B57EEFDD12A3FE9200DFCA38 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 				B57EEE4812A3E50400DFCA38 /* Cameras.m in Sources */,
 				B57EEE7312A3E91800DFCA38 /* Incidents.m in Sources */,
 				B57EEF0412A3EF3500DFCA38 /* Incident.m in Sources */,
+				B57EF02F12A4041D00DFCA38 /* Annotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

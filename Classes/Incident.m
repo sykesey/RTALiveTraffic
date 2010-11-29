@@ -11,7 +11,7 @@
 
 @implementation Incident
 
-@synthesize	inci,webview;
+@synthesize	inci,webview,mk;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -34,21 +34,51 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	CGRect webFrame = [[UIScreen mainScreen] applicationFrame];
+	webFrame.origin.y-=20;
 	self.webview = [[UIWebView alloc] initWithFrame:webFrame];
+	
+	NSString* active = ([[[self.inci objectForKey:@"properties"] valueForKey:@"ended"] integerValue] == 1 ? @"NO" : @"YES");
+	
 	
 	NSString* display = [[self.inci objectForKey:@"properties"] objectForKey:@"displayName"];
 	NSString* category = [[self.inci objectForKey:@"properties"] objectForKey:@"mainCategory"];
 	NSString* advice = [[self.inci objectForKey:@"properties"] objectForKey:@"adviceA"];
 	NSString* street = [[[[self.inci objectForKey:@"properties"] objectForKey:@"roads"] objectAtIndex:0] objectForKey:@"mainStreet"];
+	NSString* cross_street = [[[[self.inci objectForKey:@"properties"] objectForKey:@"roads"] objectAtIndex:0] objectForKey:@"crossStreet"];
+	
 	NSString* suburb = [[[[self.inci objectForKey:@"properties"] objectForKey:@"roads"] objectAtIndex:0] objectForKey:@"suburb"];
+	
 	//NSString* street = [[self.incident objectForKey:@"properties"] objectForKey:"displayName"];
 	
 	
-	NSString* content = [NSString stringWithFormat:@"<html><body><b>Display Name</b>: %@<br/><b>Category</b>: %@<br/><b>Advice A</b>: %@<br/><b>Street</b>: %@<br/><b>Suburb</b>: %@<br/><br/></body></html>", display, category, advice, street, suburb];
+	NSString* content = [NSString stringWithFormat:@"<html><style>*{font-family:Helvetica;}</style><body><b>Active?</b>: %@<br/><b>Display Name</b>: %@<br/><b>Category</b>: %@<br/><b>Advice A</b>: %@<br/><b>Street</b>: %@ &amp; %@<br/><b>Suburb</b>: %@<br/><br/></body></html>",active, display, category, advice, street,cross_street, suburb];
 	
 	
 	[self.webview loadHTMLString:content baseURL:[NSURL URLWithString:@"http://google.com"]];
 	[self.view addSubview:webview];			 
+	
+	double lat = [[[[self.inci objectForKey:@"geometry"] objectForKey:@"coordinates"] objectAtIndex:1] doubleValue];
+	double lon = [[[[self.inci objectForKey:@"geometry"] objectForKey:@"coordinates"] objectAtIndex:0] doubleValue];
+	
+	
+	CGRect mapFrame = [[UIScreen mainScreen] applicationFrame];
+	mapFrame.origin.y+=160;
+	mapFrame.size.height -= 180;
+	self.mk = [[MKMapView alloc] initWithFrame:mapFrame];
+	
+	CLLocationCoordinate2D coord = {latitude: lat, longitude: lon};
+	MKCoordinateSpan span = {latitudeDelta: 0.02, longitudeDelta: 0.02};
+	MKCoordinateRegion region = {coord, span};
+	
+	[self.mk setRegion:region] ;
+	
+	[self.view addSubview:self.mk];
+	
+	AddressAnnotation *addAnnotation = [[AddressAnnotation alloc] initWithCoordinate:coord];
+	[self.mk addAnnotation:addAnnotation];
+	[addAnnotation release];
+	 
+	
 	
 }
 

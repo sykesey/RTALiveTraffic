@@ -121,6 +121,7 @@
 	
 	//NSLog("%@",	[[[[dobj.cameras objectForKey:@"features"] objectAtIndex:indexPath.row ] objectForKey:@"properties" ] objectForKey:@"href"]);
 	disp.imageUrl = [NSString stringWithFormat:@"%@", [[[[self.cameras objectForKey:@"features"] objectAtIndex:indexPath.row ] objectForKey:@"properties" ] objectForKey:@"href"]];
+	disp.cameraName = [NSString stringWithFormat:@"%@", [[[[self.cameras objectForKey:@"features"] objectAtIndex:indexPath.row ] objectForKey:@"properties" ] objectForKey:@"title"]];
 	[self.navigationController pushViewController:disp animated:YES];
 	[disp release];
 	
